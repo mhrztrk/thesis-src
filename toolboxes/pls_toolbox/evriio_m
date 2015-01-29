@@ -1,0 +1,16 @@
+
+%EVRIIO give useful information (help,etc) on a named mfile
+%  Input (mfile) is the name of the m-file on which info is desired
+%  optional inputs are: (topic) informational topic requested
+%  (options) default options structure
+%  Typical valid topics are
+%    'io', 'demo', 'help', 'examples', 'options'
+%  use mfile=[] and topic='validtopics' for complete list of topics
+%
+%I/O: out = evriio(mfile,topic,options)
+%I/O: out = evriio([],'validtopics');       %return valid topics
+
+%Copyright Eigenvector Research, Inc. 2002-2007
+%Licensee shall not re-compile, translate or convert "M-files" contained
+% in PLS_Toolbox for use with any software other than MATLAB®, without
+% written permission from Eigenvector Research, Inc.
